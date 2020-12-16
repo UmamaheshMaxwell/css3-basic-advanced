@@ -1,0 +1,54 @@
+body {
+    background-color: #077697;
+}
+.first {
+    background-color: #FF0000;
+}
+.second {
+    background-color: #00FF00;
+}
+.third {
+    background-color: #0000FF;
+}
+.fourth {
+    /* #RRGGBB*/
+    background-color: #FFFFFF;
+}
+.fifth {
+    background-color: #000000;
+    color: white;
+}
+.sixth {
+    /* #RGB*/
+    background-color: #FFF;
+}
+.seventh{
+    /* #RGB*/
+    background-color: #000;
+    color: white;
+}
+.eighth {
+    background-color: #FF64C2;
+}
+.ninth {
+    background-color: #64FFC2;
+}
+.tenth {
+    background-color: #64C2FF;
+}
+.one {
+    background-color: rgb(50%, 50%, 50%);
+}
+.two {
+    background-color: rgb(0,0,255);
+}
+.three {
+    background-color: rgb(200, 100, 250);
+}
+.four {
+    background-color: yellow;
+}
+.five {
+    background-color: crimson;
+    color: white;
+}

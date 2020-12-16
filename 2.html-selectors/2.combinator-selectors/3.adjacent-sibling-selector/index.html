@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+        div + p {
+            background-color: yellow;
+        }
+
+        h1+div {
+            background-color: crimson;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Paragrpah1 in the div</p>
+        <p>Paragrpah2 in the div</p>
+        <section>
+            <p>Paragraph3 is inside section and in the div</p>
+        </section>
+    </div>
+    <p>Paragraph4 is not in the div</p>
+    <p>Paragraph5 is not in the div</p>
+
+    <h1>
+        This is header
+    </h1>
+    <div>
+        This is div adjacent to header
+    </div>
+    <p>
+        This is p adjacent to div
+    </p>
+</body>
+</html>

@@ -1,0 +1,73 @@
+CSS3   ( css1, css2, css2.1 and css3)
+-----
+1. Inline
+2. Internal
+3. External
+
+New Features
+-------------
+1. new selectors - better selection of HTML elements
+2. shadow Effects - box-shadow, text-shadow
+3. Rounded corners - Easily round the corner of images and for block level elements
+4. Gradients 
+5. opacity
+6. Transistions
+7. Transformations
+8. Flex-box
+9. mulit-column layout
+10. grid
+
+CSS3 is supported in HTML5 browsers
+
+    - IE8 and lesser doesn't support css3
+    - IE9 suports css3 but not fully
+    - IE10, Edge, chrome, Firefox, safari supports CSS3
+
+Selectors
+-----------
+Simple selectors - select elements based on name, id and class
+combinator selectors - select elements based on specific relationship between them
+pseudo-class selectors - select elemnts based on certain state
+pseudo element selectors - select elements and style the part of the elemnts
+attribute selectors - select elements based on attirbute or attribute-value
+
+Advantages
+---------
+CSS3 save time
+page load faster
+easy maintenance
+superior style to HTML
+multiple device compatibiity
+global web standards
+
+@import - will aloow us to import a stylesheet into another one
+        - must be at the top of the css document
+        - supports media queries
+
+Colors in CSS3
+--------------
+Color Names    - red, green, yellow, blue, gray
+HTML5 Colors   - coral, crimson, blueviolet, darkgoldenrod, darkmagenta
+Hexa Decimal Colors - #CCCCCC, #FCFCFC, #FFFFF
+RGB - RED GREEN BLUE
+
+crete HTML Shortcuts
+--------------------
+.class + tab        : will create div with class attribute
+div.classname + tab : will create div element with class attribute
+div#id + tab        : will create div element with id attribute
+div*3.class + tab   : will create 3 div elements with class attribute
+div*3#id + tab      : will create 3 div elements with id attribute
+
+shortcut to comment code - ctrl + /
+
+Simple selectors
+-------------------
+element, class, id
+
+combinator selectors
+--------------------
+1. descendent selector (space)
+2. child selector (>)
+3. adjacent sibling selector (+)
+4. genreal sibling selector (~)
