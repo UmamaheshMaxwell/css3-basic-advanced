@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+    <style>
+        a[href] {
+            color: #0000ff;
+        }
+        a[target] {
+            background-color: yellow;
+        }
+        div[class] {
+            color:red;
+            font-variant: small-caps;
+        }
+        div[class="container"] {
+            color:blue;
+            font-variant: normal;
+        }
+    </style>
+</head>
+<body>
+    <p>The links with target attribute gets yellow background</p>
+    <a href="https://angular.io/">Angular</a> <br>
+    <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> <br>
+    <a href="https://getbootstrap.com/">Bootstrap</a><br>
+    <a href="https://github.com/" target="_blank">Github</a> <br>
+    <div class="container">This is div</div>
+    <div>This is div</div>
+    <p>This is a paragrpah</p>
+    <div class="one">This is another div</div>
+</body>
+</html>

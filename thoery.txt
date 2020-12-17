@@ -71,3 +71,64 @@ combinator selectors
 2. child selector (>)
 3. adjacent sibling selector (+)
 4. genreal sibling selector (~)
+
+pseudo-class Selectors (adds special effects)
+-----------------------------------------------
+A pesudo selector matches components based on an additional condition 
+and not neccessarily defined by the document tree.
+
+pseudo class
+-------------
+Allows you to style the dynamic states of an element such as hover, active
+and focus state.
+
+Syntax
+-------
+selector:pseudo-class {
+    property: value
+}
+
+Pseudo Element Selectors
+--------------------------
+Pseudo element is used to style specified parts of an element. 
+we don't need javascript or any other script to bring those effects
+
+for e.g.
+-----------
+1. Style the first letter or first line of the element
+2. Insert the content before or after the content of an element
+
+Syntax
+----------
+selector::pseudo-element {
+    property: value
+}
+
+double colon syntax is introduced in CSS3 earlier single colon was 
+used for both pseudo class and pseudo elements (css2 and css1)
+
+::first-line
+::first-letter
+::before - Insert content before the content
+::after  - Insert content after the content
+::select
+
+note: ::first-line, ::first-letter can only be applied to block level elements
+-----
+
+Attribute Selectors
+--------------------
+Select all elements with specified attribute
+
+selector[attribute]
+--------------------
+a[target]
+div[class]
+
+selector[attribute="value"]
+-------------------------------
+div[class="container]
+
+selector[attribute~="value"]
+------------------------------
+a[title~="web"]

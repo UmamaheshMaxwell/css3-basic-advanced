@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selector</title>
+    <style>
+        div::first-letter{
+            font-style: bold;
+            color:green;
+            font-size: xx-large
+        }
+
+        span::first-letter{
+            font-style: bold;
+            color:crimson;
+            font-size: xx-large
+        }
+
+        p.paragraph::first-letter {
+            color:#0000FF;
+            font-size: 200%;
+        }
+
+        /* div::first-letter, div::first-line {
+            color: crimson;
+            font-size: xx-large;
+        } */
+
+    </style>
+</head>
+<body>
+    <div>
+        This is my div
+    </div>
+    <br>
+    <span>
+        This is a span 
+    </span>
+    <p class="paragraph">
+        This is my paragraph
+    </p>
+    <p>
+        This is another paragraph with some text, in fact with more text.
+    </p>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perferendis aspernatur aut, tenetur perspiciatis debitis itaque. Aliquid quibusdam placeat inventore nostrum laudantium deserunt possimus praesentium ipsa nobis nihil, neque fugit, exercitationem sapiente sit harum. Id neque ipsum architecto molestiae delectus iste eos, quam blanditiis qui nisi, reiciendis tenetur expedita velit!
+    </div>
+</body>
+</html>
