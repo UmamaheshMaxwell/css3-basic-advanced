@@ -132,3 +132,114 @@ div[class="container]
 selector[attribute~="value"]
 ------------------------------
 a[title~="web"]
+
+Background
+-----------
+Property handles background color, image , position, attachment 
+
+background-image
+----------------
+background-repeat : repeat-x - repeats the image horizaontally
+                    repeat-y - repeats the image vertically
+                    no-repeat - will not repeat the image
+
+background-attachment  (scroll, fixed, local)
+----------------------
+specifies whether the background image should scroll or be fixed
+
+Background Shorthand
+--------------------
+background-Color
+background-image
+background-repeat
+background-attachment
+background-position
+
+background : #fff url no-repeat fixed top right
+
+background-clip
+----------------
+The background clip property defines how far the background should extend with an element
+
+
+Fonts
+-------
+Font-family - used to change the face of the Font
+font-style - used to make font italic or oblique
+font-variant - used to create a samll caps effect
+font-weight - increases or decreases font weight
+font-size   - incraeses or decreases the size of the font
+font - shorthand to specify other property
+
+Opacity /Tranparency
+---------------------
+Opacity specifies the opacity or transparency of an element
+It can take value from 0.0 to 1.0
+Lower the value the more transparent it is
+
+
+RGBA
+-----
+RGBA - rgba(red, green, blue, alpha)
+
+alpha specifies opacity of the color
+
+alpha - 0.0 (fully transparent) and 1.0 (fully opaque)
+
+
+CSS-text
+---------
+Whe use it to manipulate the text using CSS properties
+
+1. color  - set the color of the text
+2. direction - set the direction 
+3. letter-spacing - To add or subtract space between a letter that make up a word
+4. word-spacing - add or subtract space between the words of a sentence
+5. text-indent - Indent the text of a paragraph
+6. text-align - align the text of a document
+7. text-decoration - To Uderline, overline and  strikethough
+8. text-transform - To capitalize the text ot convert text to uppercase or lowercase letters
+9. white-space - to control the flow and formatting of the text 
+10. text-shadow - To set the text shadow around a text 
+
+CSS-Border
+----------
+Will allow us to specify the style, width and color of an element's Border
+
+Border-style
+------------
+Specfies what kind of borders to diplay
+
+dotted - defined dotted borders
+dashed - Defines a dashed borders
+solid  - Defines a solid borders
+double - Defines  a double border
+groove - Defines a 3D goorved border; depends on background color;
+ridge  - Defines a 3D ridge border; depends on background color;
+inset  - Defines a 3D inset border; depends on background color;
+outset - Defines a 3D outset border; depends on background color;
+none   - Defines no border
+hidden - Defines a hidden border
+
+Border-width ( will not work without border style)
+--------------------------------------------------
+Specifies the width of the border
+
+we can set the width using specific size
+we can use pre-defined values - thin , thick or medium
+
+border width can have one to four values
+
+
+Border-color ( will not work without border style)
+--------------------------------------------------
+Used to specify the color of the four borders
+
+Border-Sides
+------------
+used to specify border for each side
+
+border-top
+border-right
+borer-bottom
+border-left

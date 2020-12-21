@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        #example1 {
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+            background-clip: border-box;
+        }
+        #example2 {
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+            background-clip: padding-box;
+        }
+        #example3 {
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is backgrund clip</h1>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, odit!
+    </p>
+    <p>
+        Background-Clip: Border-Box (this is default)
+    </p>
+    <div id="example1">
+        <p>The background extends behind the border</p>
+    </div>
+    <p>
+        Background-Clip: Padding-Box 
+    </p>
+    <div id="example2">
+        <p>The background extends to the inside edge of the border</p>
+    </div>
+    <p>
+        Background-Clip: Content-Box 
+    </p>
+    <div id="example3">
+        <p>The background extends to  the edge of the content box</p>
+    </div>
+    <p><strong>Note:</strong>
+        This is not supported in IE8
+    </p>
+</body>
+</html>
