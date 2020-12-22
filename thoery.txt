@@ -243,3 +243,82 @@ border-top
 border-right
 borer-bottom
 border-left
+
+Border-Shortcut
+----------------
+To Shorten the code, it is alo posszible to specify 
+the individual border properties in one property
+
+border - Border width
+         Border Style
+         Border Color
+
+We can specify all the individual properties for just one side
+
+
+Rounded borders
+----------------
+Border Radius property is used to add rounded border to an element.
+
+Margins
+---------
+Margin used to create space around elements outside of any defined borders
+
+Margin-Shorthand
+-----------------
+Margin property is a shothand property for the following individial properties
+
+margin-top
+margin-right
+margin-bottom
+margin-left 
+
+auto - The browser calculates the margin
+length - specifies a margin in px, pt , cm etc.
+% - specifies a margin in % of the width
+
+* Negative values are allowed 
+
+Margin Collapse
+---------------
+Top and bottom margins of elements are sometimes collapse into a single margin.
+which is equal to the largest of the two margins. This only happens with top
+and bottom margins.
+
+Padding
+--------
+Used to generate space around an element's content inside of any defined border.
+It has four properties
+
+padding-top
+padding-right
+padding-bottom
+padding-left 
+
+length - specifies a padding in px, pt , cm etc.
+% - specifies a padding in % of the width
+
+* Negative values are not allowed 
+
+It is possible to specifiy all the padding properties in one property
+
+Padding and Element width
+-------------------------
+If an element has a specified width, the padding added to 
+that element will be added to the total width of the element
+
+
+If <div> element is gien width of 300px the actual width of <div> 
+element will be (300px + 25px left padding + 25px right padding)
+
+Height and width
+----------------
+height and width properties are used to set the height and width
+of an element
+
+auto - Broswer calculates the width and height
+length -  Defines the height in px,cm etc
+% - Defines height / width in %
+
+initial - Set height and width to its deafult value
+inherit - The height and width will be inherited from its parent value
